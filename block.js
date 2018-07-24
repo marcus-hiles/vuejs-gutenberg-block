@@ -34,8 +34,6 @@
             </div>
         `
     } );
-
-
 	blocks.registerBlockType( 'infonaligy-blocks/basic-editable', {
 		title: __( 'Example: Editable' ),
 		icon: 'universal-access-alt',
@@ -89,6 +87,6 @@
 } )(
     window.wp.blocks,
     window.wp.editor,
-	window.wp.i18n,
-	window.wp.element
+    window.wp.i18n,
+    window.wp.element
 );
