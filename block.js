@@ -34,7 +34,7 @@
             </div>
         `
     } );
-	blocks.registerBlockType( 'infonaligy-blocks/basic-editable', {
+	blocks.registerBlockType( 'marcushiles-blocks/basic-editable', {
 		title: __( 'Example: Editable' ),
 		icon: 'universal-access-alt',
 		category: 'layout',
