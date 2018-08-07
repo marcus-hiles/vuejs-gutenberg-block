@@ -83,7 +83,7 @@
                 } ),
           )
 		}
-	} );
+	});
 } )(
     window.wp.blocks,
     window.wp.editor,
