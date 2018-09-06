@@ -53,7 +53,7 @@
         },
         
 		edit: function( props ) {
-            let vueAppIdAttr = 'basic-editable-' + props.id;
+            let vueAppIdAttr = `basic-editable-${props.id}`;
 
             let content = props.attributes.content;
             let title = props.attributes.title;
