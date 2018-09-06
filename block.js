@@ -1,8 +1,8 @@
 ( function( blocks, editor, i18n, element ) {
 	var el = element.createElement;
 	var __ = i18n.__;
-    var RichText = editor.RichText;
-    var setAttributes
+    let RichText = editor.RichText;
+    let setAttributes
 
     Vue.customElement( 'basic-editable', {
         props: [
