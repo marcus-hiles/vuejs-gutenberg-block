@@ -1,6 +1,6 @@
 ( function( blocks, editor, i18n, element ) {
-	let el = element.createElement;
-	let __ = i18n.__;
+    let el = element.createElement;
+    let __ = i18n.__;
     let RichText = editor.RichText;
     let setAttributes
 
