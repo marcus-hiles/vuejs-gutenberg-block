@@ -11,7 +11,9 @@ function marcus_hiles_vuejs_gutenburg_block() {
     );
     
     $dir = dirname( __FILE__ );
+	
     $block_js = '/block.js';
+	
     $style = '/block.css';
 
     wp_enqueue_script( 'marcus-hiles-blocks/vuejs-block', plugins_url( $block_js, __FILE__ ), array(
