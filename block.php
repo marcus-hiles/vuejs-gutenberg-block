@@ -1,7 +1,5 @@
 <?php
 
-
-
 function marcus_hiles_vuejs_gutenburg_block() {
  
     wp_register_script( 'vue', 'https://cdn.jsdelivr.net/npm/vue@2.5.17/dist/vue.js' );
